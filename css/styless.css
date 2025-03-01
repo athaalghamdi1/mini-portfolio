@@ -3,6 +3,8 @@ body{
     background-color: #f5f3f7;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    margin: 20px;
 }
 
 nav{
@@ -53,25 +55,78 @@ nav ul li a{
     line-height: 1.5;
 }
 
-.linkedin{
-    display: block;
-    color: #5c2d7a;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-    margin-top: 10px;
-}
+
 
 .img1{
     max-width: 100%;
     text-align: center;
+    text-align: right;
+    
 }
 .img1 img{
     width: 100%;
     max-width: 400px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1024px){
+    body{
+        font-size: 16px;
+        margin: 15px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    body{
+        font-size: 14px;
+        margin: 10px;
+    }
+    
+}
+@media screen and (max-width: 480px){
+    body{
+        font-size: 12px;
+        margin: 5px;
+    }
+    
 }
 
+#Contact-page{
+    background-color: #eee9f0;
+    font-family: 'Times New Roman', Times, serif;    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    margin: 20px;
+}
+.Contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Contact-box{
+    background-color: #c1aec9;
+    padding: 22px;
+    border-radius: 10px;
+    text-align: center;
+    color: #3e0f5c;
+    width: 340px;
+}
+.Contact-item{
+    color: #3e0f5c;
+    text-decoration: none;
+    font-size: 25px;
+    display-botton: 10px;
+}
+.Contact-item:hover{
+    text-decoration: underline;
+}
+/* .Contact-item-linkedin{
+    color: #3e0f5c;
+    text-decoration: none;
+    font-size: 24px;
+    display-botton: 10px;
+    color: #0077b5;
 
+} */
 
